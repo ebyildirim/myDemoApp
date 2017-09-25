@@ -14,7 +14,7 @@ import spark.template.mustache.MustacheTemplateEngine;
 
 public class App
 {
-    public static boolean search(ArrayList<String> arr,Arraylist<String> arr2,Arraylist<Integer> arr3) {
+    public static boolean search(ArrayList<String> arr,ArrayList<String> arr2,ArrayList<Integer> arr3) {
 		     
 		for(int e:arr3)
 		{
@@ -76,7 +76,7 @@ public class App
 
          
 
-          boolean result = App.search(inputList,intputList2,inputList3);
+          boolean result = App.search(inputList,inputList2,inputList3);
 
          Map map = new HashMap();
           map.put("result", result);
