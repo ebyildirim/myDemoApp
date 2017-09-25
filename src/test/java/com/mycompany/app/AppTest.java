@@ -62,9 +62,9 @@ ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(1,3,4));
 
     public void testNull() {
 	
-	ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(1,2,4));
+	
 
-      assertFalse(new App().search(null,null,array2));
+      assertFalse(new App().search(null,null,null));
     }
  
 }
