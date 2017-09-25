@@ -60,11 +60,6 @@ ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(1,3,4));
       assertFalse(new App().search(array,array1,array2));
     }
 
-    public void testNull() {
-	
-	
 
-      assertFalse(new App().search(null,null,null));
-    }
  
 }
