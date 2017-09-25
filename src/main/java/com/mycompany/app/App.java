@@ -19,7 +19,7 @@ public class App
 		for(int e:arr3)
 		{
 		
-		if(arr.get(e).equals(arr2.get(e))
+		if(arr.get(e).equals(arr2.get(e)))
 		  continue;
 		else
 		{
