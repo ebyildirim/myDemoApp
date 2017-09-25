@@ -17,7 +17,7 @@ public class App
     public static boolean search(ArrayList<String> arr,ArrayList<String> arr2,ArrayList<Integer> arr3) {
 		
 
-		if(arr==null || arr2==null || arr3==null)
+		if(arr.size()==0 || arr2.size()==0 || arr3.size()==0)
 		return false;
      		
 		for(int e:arr3)
