@@ -39,7 +39,7 @@ public class AppTest
    public void testFound() {
 ArrayList<String> array = new ArrayList<>(Arrays.asList("ali","batu","servet","muro"));
 ArrayList<String> array1 = new ArrayList<>(Arrays.asList("ali","miki","servet","muro"));
-ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(1,3,4));
+ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(0,2,3));
 
       assertTrue(new App().search(array,array1,array2));
     }
@@ -47,7 +47,7 @@ ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(1,3,4));
     public void testNotFound() {
       ArrayList<String> array = new ArrayList<>(Arrays.asList("ali","batu","servet","muro"));
       ArrayList<String> array1 = new ArrayList<>(Arrays.asList("ali","miki","servet","muro"));
-      ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(1,2,4));
+      ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(0,1,3));
 
       assertFalse(new App().search(array,array1,array2));
     }
@@ -55,7 +55,7 @@ ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(1,3,4));
     public void testEmptyArray() {
       ArrayList<String> array = new ArrayList<>(Arrays.asList());
       ArrayList<String> array1 = new ArrayList<>(Arrays.asList("ali","miki","servet","muro"));
-      ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(1,3,4));
+      ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(0,1,3));
 
       assertFalse(new App().search(array,array1,array2));
     }
