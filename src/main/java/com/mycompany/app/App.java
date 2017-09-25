@@ -19,6 +19,8 @@ public class App
 
 		if(arr.size()==0 || arr2.size()==0 || arr3.size()==0)
 		return false;
+		if(arr == null || arr2 == null || arr3 == null)
+		return false;
      		
 		for(int e:arr3)
 		{
