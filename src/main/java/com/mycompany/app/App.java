@@ -15,7 +15,11 @@ import spark.template.mustache.MustacheTemplateEngine;
 public class App
 {
     public static boolean search(ArrayList<String> arr,ArrayList<String> arr2,ArrayList<Integer> arr3) {
-		     
+		
+
+		if(arr==null || arr2==null || arr3==null)
+		return false;
+     		
 		for(int e:arr3)
 		{
 		
